@@ -7,12 +7,15 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>album4</ion-title>
+    <ion-title>Tracks</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content style = "background-color: #5D4954" padding>
+  
+  <ion-list >
+        <ion-label style = "font-size:larger" *ngFor = 'let t4 of tracks4'>{{t4}}</ion-label>
+      </ion-list>
 </ion-content>
