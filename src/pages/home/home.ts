@@ -8,6 +8,10 @@ import { Bio2Page } from '../bio2/bio2';
 import { Caratula2Page } from '../caratula2/caratula2';
 import { Album2Page } from '../album2/album2';
 import { Reseña2Page } from '../reseña2/reseña2';
+import { Bio3Page } from '../bio3/bio3';
+import { Caratula3Page } from '../caratula3/caratula3';
+import { Album3Page } from '../album3/album3';
+import { Reseña3Page } from '../reseña3/reseña3';
 
 @Component({
   selector: 'page-home',
@@ -22,6 +26,10 @@ bio2 = Bio2Page;
 cara2 = Caratula2Page;
 album2 = Album2Page;
 res2 = Reseña2Page;
+bio3 = Bio3Page;
+cara3 = Caratula3Page;
+album3 = Album3Page;
+res3 = Reseña3Page;
 
 
   constructor(public navCtrl: NavController) {
@@ -59,5 +67,22 @@ res2 = Reseña2Page;
   clickres2()
   {
   this.navCtrl.push(this.res2);
+  }
+
+  clickbio3()
+  {
+    this.navCtrl.push(this.bio3);
+  }
+  clickcaratula3()
+  {
+    this.navCtrl.push(this.cara3);
+  }
+  clickalbum3()
+  {
+    this.navCtrl.push(this.album3);
+  }
+  clickres3()
+  {
+  this.navCtrl.push(this.res3);
   }
 }

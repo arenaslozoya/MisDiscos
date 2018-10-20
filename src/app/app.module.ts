@@ -14,6 +14,10 @@ import { Caratula2Page } from '../pages/caratula2/caratula2';
 import { Bio2Page } from '../pages/bio2/bio2';
 import { Album2Page } from '../pages/album2/album2';
 import { Reseña2Page } from '../pages/reseña2/reseña2';
+import { Bio3Page } from '../pages/bio3/bio3';
+import { Caratula3Page } from '../pages/caratula3/caratula3';
+import { Album3Page } from '../pages/album3/album3';
+import { Reseña3Page } from '../pages/reseña3/reseña3';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { Reseña2Page } from '../pages/reseña2/reseña2';
     Bio2Page,
     Caratula2Page,
     Album2Page,
-    Reseña2Page
+    Reseña2Page,
+    Bio3Page,
+    Caratula3Page,
+    Album3Page,
+    Reseña3Page
   ],
   imports: [
     BrowserModule,
@@ -43,7 +51,11 @@ import { Reseña2Page } from '../pages/reseña2/reseña2';
     Bio2Page,
     Caratula2Page,
     Album2Page,
-    Reseña2Page
+    Reseña2Page,
+    Bio3Page,
+    Caratula3Page,
+    Album3Page,
+    Reseña3Page
   ],
   providers: [
     StatusBar,
