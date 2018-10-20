@@ -22,6 +22,10 @@ import { Bio4Page } from '../pages/bio4/bio4';
 import { Caratula4Page } from '../pages/caratula4/caratula4';
 import { Album4Page } from '../pages/album4/album4';
 import { Reseña4Page } from '../pages/reseña4/reseña4';
+import { Bio5Page } from '../pages/bio5/bio5';
+import { Caratula5Page } from '../pages/caratula5/caratula5';
+import { Album5Page } from '../pages/album5/album5';
+import { Reseña5Page } from '../pages/reseña5/reseña5';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { Reseña4Page } from '../pages/reseña4/reseña4';
     Bio4Page,
     Caratula4Page,
     Album4Page,
-    Reseña4Page
+    Reseña4Page,
+    Bio5Page,
+    Caratula5Page,
+    Album5Page,
+    Reseña5Page
   ],
   imports: [
     BrowserModule,
@@ -67,7 +75,11 @@ import { Reseña4Page } from '../pages/reseña4/reseña4';
     Bio4Page,
     Caratula4Page,
     Album4Page,
-    Reseña4Page
+    Reseña4Page,
+    Bio5Page,
+    Caratula5Page,
+    Album5Page,
+    Reseña5Page
   ],
   providers: [
     StatusBar,
