@@ -6,11 +6,27 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Bio1Page } from '../pages/bio1/bio1';
+import { CaratulaPage } from '../pages/caratula/caratula';
+import { Album1Page } from '../pages/album1/album1';
+import { Reseña1Page } from '../pages/reseña1/reseña1';
+import { Caratula2Page } from '../pages/caratula2/caratula2';
+import { Bio2Page } from '../pages/bio2/bio2';
+import { Album2Page } from '../pages/album2/album2';
+import { Reseña2Page } from '../pages/reseña2/reseña2';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    Bio1Page,
+    CaratulaPage,
+    Album1Page,
+    Reseña1Page,
+    Bio2Page,
+    Caratula2Page,
+    Album2Page,
+    Reseña2Page
   ],
   imports: [
     BrowserModule,
@@ -19,7 +35,15 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    Bio1Page,
+    CaratulaPage,
+    Album1Page,
+    Reseña1Page,
+    Bio2Page,
+    Caratula2Page,
+    Album2Page,
+    Reseña2Page
   ],
   providers: [
     StatusBar,
