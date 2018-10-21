@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'album5.html',
 })
 export class Album5Page {
-
+  tracks5 = ["1.Pretty Hurts", "2.Haunted", "3.Druk in Love", "4.Blow", "5.No Angel", "6.Partition", "7.Jealous", "8.Rocket", "9.Mine","10.XO","11.***Flawless","12.Superpower", "13.Heaven", "14.Blue", "15.7/11","16.Ring Off"];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
